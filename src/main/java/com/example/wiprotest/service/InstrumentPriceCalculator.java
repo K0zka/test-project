@@ -1,1 +1,1 @@
-package com.example.wiprotest.service;import com.example.wiprotest.model.CalculatedPrice;import com.example.wiprotest.model.InstrumentPriceHistory;import java.util.List;public interface InstrumentPriceCalculator {	void consume(InstrumentPriceHistory history);	CalculatedPrice calculate();}
+package com.example.wiprotest.service;import com.example.wiprotest.model.CalculatedPrice;import com.example.wiprotest.model.InstrumentPriceHistory;public interface InstrumentPriceCalculator {	void consume(InstrumentPriceHistory history);	CalculatedPrice calculate();}
