@@ -1,0 +1,1 @@
+package com.example.wiprotest.model;import java.util.Date;public record InstrumentPriceHistory(String name, Date date, Double value) {}

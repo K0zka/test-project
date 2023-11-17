@@ -1,0 +1,1 @@
+package com.example.wiprotest.model;public record CalculatedPrice(String name, double calculatedPrice) {}

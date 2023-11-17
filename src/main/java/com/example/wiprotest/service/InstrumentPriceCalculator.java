@@ -1,0 +1,1 @@
+package com.example.wiprotest.service;import com.example.wiprotest.model.CalculatedPrice;import com.example.wiprotest.model.InstrumentPriceHistory;import java.util.List;public interface InstrumentPriceCalculator {	CalculatedPrice calculate(List<InstrumentPriceHistory> history);}

@@ -1,0 +1,1 @@
+package com.example.wiprotest.service;import com.example.wiprotest.exceptions.DaoException;import com.example.wiprotest.model.InstrumentPriceModifier;public interface InstrumentPriceModifierDao {	InstrumentPriceModifier getByName(String name) throws DaoException;}
