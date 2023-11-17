@@ -1,1 +1,1 @@
-package com.example.wiprotest.utils;import java.util.Collection;public class ListUtils {	public static <T> void checkNotEmpty(Collection<T> items) {		if(items.isEmpty()) {			throw new IllegalArgumentException("a non-empty list expected");		}	}}
+package com.example.wiprotest.utils;import java.util.Collection;public class ListUtils {	public static <T> void checkNotEmpty(Collection<T> items) {		if (items.isEmpty()) {			throw new IllegalArgumentException("a non-empty list expected");		}	}}
